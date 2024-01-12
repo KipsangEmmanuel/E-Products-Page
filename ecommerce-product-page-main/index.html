@@ -2,24 +2,95 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="main">
+    <div class="navbar">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <div class="navigation">
+        <ul>
+          <nav>
+            <ul>
+              <li><h2>Collection</h2></li>
+              <li><h2>Men</h2></li>
+              <li><h2>Wemen</h2></li>
+              <li><h2>About</h2></li>
+              <li><h2>Contact</h2></li>
+            </ul>
+          </nav>
+        </ul>
+      </div>
+      <div class="profile">
+        <div class="cart">
+          <img src="./images/icon-cart.svg" alt="">
+        </div>
+        <div class="pro">
+          <img src="./images/image-avatar.png" width="40px" alt="">
+        </div>
+      </div>
+    </div>
 
+
+    <div class="cards">
+      <div class="column">
+        <div class="card1">
+          <img class="img1" src="./images/image-product-1.jpg" alt="">
+        </div>
  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+
+        <div class="card2">
+          <div class="square-cards">
+            <img class="img2" src="./images/image-product-1-thumbnail.jpg" width="120px" alt="">
+          </div>
+          <div class="square-cards">
+            <img class="img2" src="./images/image-product-2-thumbnail.jpg" width="120px" alt="">
+          </div>
+          <div class="square-cards">
+            <img class="img2" src="./images/image-product-3-thumbnail.jpg" width="120px" alt="">
+          </div>
+          <div class="square-cards">
+            <img class="img2" src="./images/image-product-4-thumbnail.jpg" width="120px" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="column">  
+        <div class="card3">
+          <h2 class="comp">Sneakers Company</h2>
+          <h1 class="fall">Fall Limited education <br> Sneakers</h1>
+          <div class="dollar">
+            
+            <p class="para">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.<wbr /> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <div class="nums">
+                <h1 class="point">$125.00</h1>
+                <p class="fif">50%</p>
+              </div>
+              <h4>$125.00</h4>
+            </div>
+          <div class="last">
+            <div class="add">
+              <h4 class="btn"> - <span>0</span> + </h4>
+            </div>
+            <div class="addCard">
+              <div class="addcard-img">
+                <img src="./images/icon-cart.svg" width="20px" alt="">
+              </div>
+              <h4>Add to cart</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 </body>
 </html>

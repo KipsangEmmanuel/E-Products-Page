@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main {
+    margin: 50px;
+}
+h2 {
+    color: lightgrey;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(225, 224, 224);
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .navigation {
+    text-align: center;
+    order: 2; 
+  }
+
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation ul li {
+    margin: 0 10px;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    order: 3;
+  }
+
+  .profile img {
+    margin-right: 10px;
+  }
+  .cart{
+    margin-right: 200px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 80px;
+  }
+
+  .card1 {
+    background-color: rgb(244, 248, 251);
+    padding: 20px;
+    width: 90%;
+  }
+  img{
+    border-radius: 5px;
+  }
+
+  .img1 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card2 {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 20px;
+  }
+
+  .square-cards {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+  }
+
+  .img2 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card3 {
+    background-color: rgb(254, 255, 254);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 90px;
+    height: 250px;
+    width: 70%;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .add {
+    background-color: rgb(243, 247, 248);
+    padding: 10px 30px;
+    color: orange;
+    margin-bottom: 10px;
+  }
+  .add>h4>span{
+    color: black;
+    margin: 0 10px;
+  }
+  .comp{
+    color: orange; 
+  }
+  .fall {
+    font-size: 20px;
+  }
+  .last{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .point {
+    font-weight: bold;
+  }
+  .fif{
+    color: orange;
+    font-weight: bold;
+  }
+ 
+  .addCard{
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+ 
+  }
+  .para{
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .nums {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .dollar>h4{
+    color: gray;
+    text-decoration: line-through;
+  }
